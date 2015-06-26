@@ -168,8 +168,8 @@ TlogSystem::TlogSystem()
     :m_policy(TlogPolicy::CONSOLE),m_level(TlogLevel::VERBOSE)
 {
     m_fileHandle = fopen("log/log.txt","w+");
-
 }
+
 TlogLevel TlogSystem::getLevel() const
 {
     return m_level;

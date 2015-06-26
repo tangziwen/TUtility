@@ -7,7 +7,9 @@ SOURCES += \
     test.cpp \
     log/Tlog.cpp \
     string/Tstring.cpp \
-    log/TstatckTrace.cpp
+    log/TstatckTrace.cpp \
+    math/TbaseMath.cpp \
+    math/Tvector.cpp
 
 include(deployment.pri)
 qtcAddDeployment()
@@ -16,5 +18,7 @@ HEADERS += \
     log/Tlog.h \
     TUtility.h \
     string/Tstring.h \
-    log/TstatckTrace.h
+    log/TstatckTrace.h \
+    math/TbaseMath.h \
+    math/Tvector.h
 
